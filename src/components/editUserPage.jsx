@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 
 const EditUserPage = () => {
 	const {userId} = useParams()
-console.log(+userId)
+	
 	return ( 
 		<>
 			<h1>User Edit Page</h1>
